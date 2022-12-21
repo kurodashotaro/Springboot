@@ -1,0 +1,9 @@
+package com.example.demo.Repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.demo.Entity.Stamp;
+
+public class StampRepository extends JpaRepository<Stamp, Long> {
+
+}

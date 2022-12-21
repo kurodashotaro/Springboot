@@ -1,0 +1,33 @@
+package com.example.demo.Entity;
+
+import org.springframework.stereotype.Repository;
+
+import lombok.Data;
+import src.main.java.blog.tsuchiya.tutorial.step6.model.GeneratedValue;
+import src.main.java.blog.tsuchiya.tutorial.step6.model.Id;
+import src.main.java.blog.tsuchiya.tutorial.step6.model.Long;
+import src.main.java.blog.tsuchiya.tutorial.step6.model.NotNull;
+import src.main.java.blog.tsuchiya.tutorial.step6.model.Size;
+import src.main.java.blog.tsuchiya.tutorial.step6.model.String;
+
+@Repository
+@Data
+public class Stamp {
+	/**
+	 * フィールにアノテーションを付けることでどういう制約がある
+	 * 絡むなのか定義できる。
+	 * Idアノテーションで主キーであること、
+	 * GeneratedValueアノテーションで自動採番することを示している。
+	 */
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	/**
+	 * こちらはNotNullでnullではないこと、Sizeで
+	 * 最大文字が255文字であることを示している。
+	 */
+	@NotNull
+	@Size(max=255)
+	private String title;
+}

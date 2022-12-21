@@ -1,0 +1,7 @@
+package com.example.demo.Entity;
+
+@Repository
+@Data
+public class Stamp {
+
+}

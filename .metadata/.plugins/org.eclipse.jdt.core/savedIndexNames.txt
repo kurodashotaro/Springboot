@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\kurodash\Desktop\Test\Springboot\.metadata\.plugins\org.eclipse.jdt.core
+1109774642.index
+43691425.index
+1865797976.index
