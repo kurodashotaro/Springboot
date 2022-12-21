@@ -21,7 +21,7 @@ public class StampController {
 	 * 役割分担を意識している。
 	 */
 	private final StampService service;
-	@RequestMapping
+	@RequestMapping(value="/index")
 	public String index(@RequestParam(required = false) String title, Model model) {
 		// タイトルが入力されたらデータベースに保存する
 		if(!Objects.isNull(title) && !title.isBlank()) {

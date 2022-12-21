@@ -16,7 +16,7 @@ public class StampService {
 	private final StampRepository repository;
 	
 	/**
-	 * 入力したタイトルを書籍データベースに登録する。
+	 * 入力した日付で登録データベースに登録する。
 	 * @param title
 	 */
 	public void save(String title) {
@@ -26,8 +26,8 @@ public class StampService {
 	}
 	
 	/**
-	 * すべての書籍データを返す
-	 * @return 書籍データ
+	 * すべての登録データデータを返す
+	 * @return 登録データ
 	 */
 	public List<Stamp> findAll(){
 		return this.repository.findAll();
