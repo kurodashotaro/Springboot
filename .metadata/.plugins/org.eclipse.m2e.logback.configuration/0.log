@@ -2366,3 +2366,46 @@ org.eclipse.core.runtime.CoreException: 起動構成 Step6Application が参照するプロ
 2022-12-22 10:23:32,025 [Worker-135: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
 2022-12-22 10:23:32,192 [Worker-135: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
 2022-12-22 10:23:32,211 [Worker-135: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kurodash\Desktop\Test\Springboot\Stamp1\src\test\resources
+2022-12-22 10:25:13,181 [Worker-135: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-22 10:25:13,181 [Worker-135: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-22 10:25:13,188 [Worker-135: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kurodash\Desktop\Test\Springboot\Stamp1\src\test\resources
+2022-12-22 10:25:17,583 [Worker-133: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-22 10:25:17,600 [Worker-133: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2022-12-22 10:25:17,614 [Worker-133: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kurodash\Desktop\Test\Springboot\Stamp2\src\test\resources
+2022-12-22 10:25:25,081 [Worker-133: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-22 10:25:25,088 [Worker-133: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2022-12-22 10:25:25,161 [Worker-133: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kurodash\Desktop\Test\Springboot\Stamp2\src\test\resources
+2022-12-22 10:25:34,306 [Worker-139: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-22 10:25:34,365 [Worker-139: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2022-12-22 10:25:34,442 [Worker-139: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kurodash\Desktop\Test\Springboot\StampCalendar2\src\test\resources
+2022-12-22 10:25:37,254 [Worker-133: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-22 10:25:37,280 [Worker-133: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2022-12-22 10:25:37,299 [Worker-133: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kurodash\Desktop\Test\Springboot\Stamp2\src\test\resources
+2022-12-22 10:25:46,444 [Worker-136: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-22 10:25:46,453 [Worker-136: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2022-12-22 10:25:46,461 [Worker-136: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kurodash\Desktop\Test\Springboot\StampCalendar2\src\test\resources
+2022-12-22 10:25:52,589 [Worker-139: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-22 10:25:52,601 [Worker-139: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2022-12-22 10:25:52,607 [Worker-139: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kurodash\Desktop\Test\Springboot\Stamp1\src\test\resources
+2022-12-22 10:37:46,527 [Worker-141: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Stamp1:0.0.1-SNAPSHOT @ C:\Users\kurodash\Desktop\Test\Springboot\StampFullcalendar\pom.xml.
+2022-12-22 10:37:48,386 [Worker-141: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-22 10:37:48,388 [Worker-141: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2022-12-22 10:37:48,393 [Worker-141: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kurodash\Desktop\Test\Springboot\StampFullcalendar\src\test\resources
+2022-12-22 10:37:49,637 [Worker-141: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-22 10:37:49,640 [Worker-141: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2022-12-22 10:37:49,648 [Worker-141: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kurodash\Desktop\Test\Springboot\StampFullcalendar\src\test\resources
+2022-12-22 10:51:09,725 [Worker-147: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-22 10:51:09,726 [Worker-147: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-22 10:51:09,737 [Worker-147: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kurodash\Desktop\Test\Springboot\StampFullcalendar\src\test\resources
+2022-12-22 10:51:35,062 [Worker-149: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-22 10:51:35,071 [Worker-149: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2022-12-22 10:51:35,104 [Worker-149: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kurodash\Desktop\Test\Springboot\StampFullcalendar\src\test\resources
+2022-12-22 10:51:37,937 [Worker-146: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-22 10:51:37,938 [Worker-146: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-22 10:51:37,947 [Worker-146: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kurodash\Desktop\Test\Springboot\StampFullcalendar\src\test\resources
+2022-12-22 10:51:44,112 [Worker-149: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-22 10:51:44,228 [Worker-149: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2022-12-22 10:51:44,252 [Worker-149: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kurodash\Desktop\Test\Springboot\StampFullcalendar\src\test\resources
+2022-12-22 13:19:14,596 [Worker-170: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-22 13:19:14,597 [Worker-170: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-22 13:19:14,604 [Worker-170: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kurodash\Desktop\Test\Springboot\StampFullcalendar\src\test\resources
