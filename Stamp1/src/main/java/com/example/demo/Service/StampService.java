@@ -16,7 +16,7 @@ public class StampService {
 	private final StampRepository repository;
 	
 	/**
-	 * 入力した日付で登録データベースに登録する。
+	 * 入力した日付でを登録データベースに登録する。
 	 * @param title
 	 */
 	public void save(String title) {
