@@ -1,22 +1,32 @@
 <html lang='ja'>
   <head>
     <meta charset='utf-8' />
-    <script src='fullcalendar-6.0.1/dist/index.global.js'></script>
+    <script src=https://cdn.jsdelivr.net/npm/vue/dist/vue.js></script>
     <script>
+      import FullCalendar from '@fullcalendar/vue3'
+      import dayGridPlugin from '@fullcalendar/daygrid'
+      import interactionPlugin from '@fullcalendar/interaction'
 
-      document.addEventListener('DOMContentLoaded', function() {
-        var calendarEl = document.getElementById('calendar');
-        var calendar = new FullCalendar.Calendar(calendarEl, {
-          initialView: 'dayGridMonth',
-          locale:'ja',
-          events:'event.json'
-        });
-        calendar.render();
-      });
+      var app = new Vue({
+		    el:"#app",
+        components: {
+          FullCalendar // make the <FullCalendar> tag available
+        },
+		    data() {
+			    return {
+				    calendarOptions: {
+                plugins: [ dayGridPlugin, interactionPlugin ],
+                 initialView: 'dayGridMonth'
+			      }
+		      }
+        }
+	    })
 
     </script>
   </head>
   <body>
-    <div id='calendar'></div>
+    <div id="app">
+        <FullCalendar :options="calendarOptions" />
+    </div>
   </body>
 </html>

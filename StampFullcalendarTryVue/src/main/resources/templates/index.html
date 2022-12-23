@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div id="app">
-		<h1 v-if="try">成功</h1>
+		<h1 v-if="num>=10">成功</h1>
 		<h1 v-else>失敗</h1>
 	</div>
 	<main class="border  p-1 m-3">
@@ -38,7 +38,7 @@
 		el:"#app",
 		data() {
 			return {
-				try:true
+				num:10
 			}
 		}
 	})
